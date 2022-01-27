@@ -1,0 +1,2859 @@
+/* Acxelsus Jaybro Styles */
+body{/*font-size: 14px;*/ font-size: 1.4rem; font-family: 'Roboto', sans-serif!important;overflow-x: hidden;}
+.social-icons-container span {
+    font-size: 40px;
+    padding: 10px;
+    color: #fff;
+}
+/* Header section */
+header.page-header {
+    background: #0d2c6d;
+    border-bottom: none;
+    padding: 11px 30px 0px;
+    position: relative;
+    color: #fff;
+    margin: 0px;
+}
+.navigation .level0 > .level-top {
+    color: #fff;
+}
+form.minisearch {
+    position: absolute; 
+    left: -650px;
+    width: 450px;
+}
+form.minisearch .nested {
+    display: none;
+}
+.authorization-link {
+    position: absolute;
+    right: 90px;
+    top: 40px;
+    list-style-type:none;
+    cursor: pointer;
+}
+.authorization-link a, .minicart-wrapper .action.showcart:before {
+    color: #fff;
+}
+.header-top {
+    padding-right: 60px;
+}
+.header-top a {
+    font-size: 2.8rem; 
+    font-style: italic; 
+    color: #ffde00; 
+    font-weight: 600; 
+    text-decoration: none;
+}
+.minicart-wrapper a.showcart:hover {
+    color: #fff;
+}
+.minicart-wrapper .action.showcart:before {
+    position: absolute;
+    top: -20px;
+}
+.minicart-wrapper .showcart:hover {
+    color: #fff!important;
+}
+.minicart-wrapper .action.showcart .text {
+    position: relative;
+    color: #fff;
+    top: 10px;
+}
+.authorization-link span#user-icon {
+    font-size: 30px;
+    position:absolute;
+    top:-30px;
+    left: 10px;
+    cursor: pointer;
+}
+span.btn-search {
+    position: absolute;
+    bottom: 0!important;
+    right: 0;
+    width: 145px;
+    height: 32px;
+    display: block;
+    background: #1ba6df!important;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    text-transform: capitalize;
+    left: 450px;
+    top: 0px;
+    cursor: pointer;
+}
+.block-search .action.search {
+    display: none;
+}
+.nav-sections {
+    margin-bottom: 0px;
+}
+.home-slider-box {
+    background: #e6e5ea;
+    padding: 10px 0px;
+    margin-bottom: 0px;
+}
+.home-slider-box .w_header {
+    font-size: 10px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 3px 0px;
+    margin: 8px 0px;
+    color: #002565;
+    display: inline-block;
+    border-bottom: 2px solid #002565;
+
+}
+/* End header section */
+/* Website switcher */
+.websiteswitcher {
+    position: absolute;
+    right: 100px;
+    bottom: 4px;
+    color: #ffde00;
+    text-transform: capitalize;
+    z-index: 91;
+    top: 170px;
+}
+.page-header .switcher {
+    float: right;
+    margin-left: 15px;
+    margin-right: -6px;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+}
+.websiteswitcher label {
+    float: left;
+    color: #fff;
+    text-transform: none;
+    padding-right: 5px !important;
+}
+.page-header .switcher .options .action.toggle, .page-footer .switcher .options .action.toggle {
+    padding: 0;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+.page-header .switcher .options, .page-footer .switcher .options {
+    display: inline-block;
+    position: relative;
+}
+.page-header .switcher .options ul.dropdown, .page-footer .switcher .options ul.dropdown {
+    margin: 0;
+    padding: 0;
+    list-style: none none;
+    background: #fff;
+    border: 1px solid #bbb;
+    margin-top: 4px;
+    min-width: 160px;
+    z-index: 100;
+    box-sizing: border-box;
+    display: none;
+    position: absolute;
+    top: 100%;
+    box-shadow: 0 3px 3px rgb(0 0 0 / 15%);
+}
+.switcher-dropdown:after {
+    border: 6px solid;
+    border-color: transparent transparent #fff;
+    z-index: 99;
+}
+.switcher-dropdown {
+    padding-top: 0px; 
+    padding-bottom: 0px;
+    left: unset;
+    right: 0px;
+}
+.switcher-dropdown .switcher-option {
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+.switcher-dropdown .switcher-option a {
+    padding: 10px;
+}
+.switcher-dropdown .switcher-option a:hover {
+    background-color: #0066a1;
+    color: #fff;
+}
+.switcher-dropdown:before {
+    left: 10px;
+    top: -12px;
+}
+.switcher-dropdown:after {
+    border-bottom-style: solid;
+    content: '';
+    display: block;
+    height: 0;
+    position: absolute;
+    width: 0;
+    top: -12px;
+    right: 10px;
+    left: auto;
+}
+/* End website switcher */
+/* Modals */
+.modal-header {
+    color: #0d2c6d;
+}
+.modal .modal-header, .modal .modal-footer {
+    padding: 40px!important;
+}
+.modal .modal-body {
+    padding: 0px 40px 40px 40px;
+}
+.modal .modal-footer {
+    background-color: #d9dada;
+}
+.modal .modal-content {
+    background-color: #ebecec;
+}
+.modal-footer-description {
+    color: #1ba6df;
+    text-align: left;
+}
+.create-account-description {
+    list-style-type: none;
+    color: #1ba6df;
+    padding: 0px 40px 0px 40px;
+}
+.btn-register {
+    height: 50px;
+    min-width: 225px;
+    border: 0;
+    border-radius: 0;
+    background: #1ba6df;
+    box-shadow: none;
+    font-weight: bold;
+    color: #fff;
+}
+.btn-register:hover, .btn-signin:hover {
+    background-color: #fedd32;
+    color: #0d2c6d;
+}
+.btn-signin {
+    height: 50px;
+    min-width: 225px;
+    border: 0;
+    border-radius: 0;
+    background: #0d2c6d;
+    color: #fff;
+    font-weight: bold;
+}
+.forgot-password {
+    font-size: 15px;
+    color: #0d2c6d;
+    padding: 0;
+    margin: 0;
+    line-height: 50px;
+    cursor: pointer;
+}
+button.close {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 26px;
+    border: 1px solid #fff;
+    top: -50px;
+    right: -55px;
+    background: #fedd32;
+    color: #0d2c6d;
+    border-radius: 20px;
+    font-size: 24px;
+    outline: none;
+    cursor: pointer;
+    opacity: 1;
+}
+button.close:hover {
+    opacity: 1;
+}
+.modal input {
+    height: 44px;
+    border: 1px solid #0d2c6d;
+    outline: none;
+    box-shadow: inherit!important;
+    background: #ebecec;
+}
+.actions-toolbar {
+    margin-top: 30px;
+}
+#login-modal {
+    background: rgba(3,42,102,.8)!important;
+}
+.actions-toolbar button {
+    height: 50px;
+    min-width: inherit;
+    border: 0;
+    border-radius: 0;
+    background: #0d2c6d;
+    width: 100%;
+    margin-right: 0;
+    color: #fff;
+    font-weight: 600;
+}
+.btn-forgot-password:hover, .btn-sms-support-team:hover {
+    background: #fedd32!important;
+}
+.btn-forgot-password {
+    width: 60%!important;
+}
+.forgot-password-divider {
+    position: relative;
+    top: 10px;
+    line-height: 20px;
+    left: 0;
+    padding: 0 15px;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    color: #0d2c6d;
+}
+.btn-sms-support-team {
+    background-color: #1ba6df;
+    font-weight: 600;
+    color: #fff;
+    border: 0px;
+    height: 50px;
+}
+.image-icon-container, .sms-container {
+    padding: 30px;
+}
+/* End modals modal */
+/* Footer section */
+.page-footer, .footer-bottom-container, .nav-sections-items, nav.navigation {
+    background-color: #0d2c6d;
+}
+.footer.content {
+    border-top: unset;
+    color: #fff;
+}
+.footer-links h3 {
+    font-weight: bold;
+}
+.footer-links a {
+    color: #fff;
+    font-size: 12px;
+}
+.footer-links ul li {
+    padding: 0px 0px 5px;
+}
+li.jaybro-email, li.jaybro-phone {
+    color: #ffde00!important;
+}
+.footer-bottom-container {
+    border-top: 1px solid #ffde00;
+}
+.footer-bottom {
+    color: #fff;
+    margin: 20px 0px 20px 0px;padding: 0px 120px 0px 120px;
+    font-size: 12px;
+}
+.footer-bottom a.disclaimer, .footer-bottom a.privacy {
+    color: #0066a1;
+}
+.copyright-container {
+    padding-top: 20px;
+}
+span.follow-us {
+    font-size: 12px!important;
+    position:relative;
+    top: -10px;
+}
+.footer-newsletter {
+    background-color: #ffde00;
+    padding: 40px;
+    margin-top: 30px;
+}
+.footer-newsletter h2 {
+    padding: 0px 0px 10px;
+    margin: 0px;
+    font-size: 24px;
+    color: #0d2c6d;
+    font-weight: 700;
+    line-height: 44px;
+}
+.subscribe .form-group {
+    display: inline-block;
+    width: 40%;
+}
+.subscribe input {
+    height: 45px;
+}
+button.subscribe {
+    width: 45px;
+    height: 45px;
+    background: url(https://www.jaybro.com.au/pub/media/wysiwyg/slider-Arrow-R.png) center center no-repeat;
+    background-size: auto 100%;
+    border: 0;
+    padding: 0;
+    background-color: unset;
+    border: unset;
+}
+a.about-jaybro, a.customer-support, a.my-account, a.contact-info {
+    display: none;
+}
+h3.about-jaybro span, h3.customer-support span, h3.my-account span, h3.contact-info span {
+    display: none;
+}
+/* End footer section */
+
+/* Home page content */
+div.image-icon {
+    display: inline-block;
+}
+.categories {
+    padding: 20px;
+}
+.image-item-container {
+    padding: 3px;
+}
+a.category-link {
+    position: absolute;
+    height: 60px;
+    background: #0d2c6d;
+    margin-bottom: 0!important;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: block;
+    width: 100%;
+    padding: 8px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    line-height: 44px;
+    font-style: italic;
+    text-align: center;
+}
+.blog-heading {
+    padding: 12px 0px 12px 7px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    background: #0d2c6d;
+}
+.blog-heading:after {
+    position: absolute;
+    content: '';
+    background: #0d2c6d;
+    width: 50px;
+    height: 100%;
+    top: 0;
+    right: -11px;
+    transform: skewX(-25deg);
+    -webkit-transform: skewX(-25deg);
+}
+.btn-blog {
+    background: #fedd32!important;
+    border: 0;
+    min-width: 195px;
+    height: 46px;
+    padding: 0;
+    line-height: 46px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0d2c6d!important;
+    border-radius: 0;
+    text-decoration: none;
+    margin-right: 17px;
+}
+.btn-blog:hover {
+    color: #fff!important;
+    background: #1ba6df!important;
+    text-decoration: none;
+}
+h2.why-choose-jaybro {
+    margin: 50px 0px 20px;
+    padding: 6px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 34px;
+    background: #0d2c6d;
+    position: relative;
+    max-width: 50%;
+}
+h2.why-choose-jaybro:after {
+    position: absolute;
+    content: '';
+    background: #0d2c6d;
+    width: 50px;
+    height: 100%;
+    top: 0;
+    right: -11px;
+    transform: skewX(-25deg);
+    -webkit-transform: skewX(-25deg);
+}
+h3.why-choose-jaybro-sub {
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0;
+    padding: 10px 0px 20px;
+    color: #0d2c6d;
+}
+.BtmTwoBxLetf {
+    background: #1ba6df;
+    color: #fff;
+    padding: 0px;
+}
+.BtmTwoBxRight {
+    background: #0d2c6d;
+    color: #fff;
+    padding: 0px;
+}
+.BtmTwoBxLetfContainer, .BtmTwoBxRightContainer {
+    padding: 0px 20px 0px 20px;
+}
+.promo-heading-container {
+    padding: 0px 30px 0px 30px;
+}
+.promoHeading {
+    font-size: 44px;
+    line-height: 44px;
+    font-weight: 700;
+}
+p.homePromoText {
+    font-size: 14px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+.homePromoButton a.btn, .jaybroButton.testinomialButton a.btn, .VideoBxBtmRightDec a.btn, .VideoBxTopLeft a.btn {
+    background: #fedd32!important;
+    border: 0;
+    min-width: 195px;
+    height: 46px;
+    padding: 0;
+    line-height: 46px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0d2c6d!important;
+    border-radius: 0;
+    text-decoration: none;
+}
+.promo-image-container {
+    margin-bottom: 50px;
+}
+/* End home page content */
+
+/* Category view */
+.breadcrumbs {
+    padding-left: 30px!important;
+    padding-right: 30px!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 0px;
+}
+.breadcrumbs .items>li.item.home a {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background: #fff url(https://www.jaybro.com.au/pub/media/wysiwyg/homeIcon.png) right top 3px no-repeat;
+    background-size: 20px 20px;
+    text-indent: -50px;
+    overflow: hidden;
+}
+.breadcrumbs .items>li {
+    display: inline-block;
+    vertical-align: top;
+    color: #0d2c6d;
+    position: relative;
+    color: #0d2c6d;
+    padding: 5px 10px;
+    display: inline-block;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 12px;
+}
+.breadcrumbs .items>li strong {
+    color: #0d2c6d;
+    padding: 0px;
+    display: inline-block;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 12px;
+}
+.breadcrumbs .item:first-child:after {
+    content: ''!important;
+}
+.breadcrumbs .item:not(:last-child):after {
+    content: '|';
+    height: 13px;
+}
+.breadcrumbs .item:not(:first-child) {
+    padding: 15px 0px;
+}
+.page-title-wrapper h1#page-title-heading span.base, body.catalog-category-view.page-layout-1column .categoryStaticData h2 {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #0d2c6d;
+    font-weight: 800;
+    display: block;
+}
+.subCategoryheading {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 800;
+    display: inline-block;
+    position: relative;
+    min-width: 50%;
+    padding: 12px 50px 12px 20px;
+    background: #0d2c6d;
+    margin: 0;
+}
+.subCategoryheading:before {
+    position: absolute;
+    content: '';
+    left: -100%;
+    background: #0d2c6d;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.subCategoryheading:after {
+    position: absolute;
+    content: '';
+    background: #0d2c6d;
+    width: 50px;
+    height: 100%;
+    top: 0;
+    right: -20px;
+    transform: skewX(-25deg);
+    -webkit-transform: skewX(-25deg);
+}
+.subCategoryViewAll {
+    text-align: center;
+    margin: 0;
+    padding: 15px 0px 0px;
+}
+.subCategoryViewAll a {
+    background: #fedd32!important;
+    border: 0;
+    min-width: 195px;
+    height: 46px;
+    padding: 0;
+    line-height: 46px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0d2c6d!important;
+    border-radius: 0;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+.subCategoryProductSlider {
+    background: #eaf6fc;
+    padding: 25px;
+    position: relative;
+}
+.subCategoryProductSlider:before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #eaf6fc;
+    left: -100%;
+    top: 0;
+}
+.subCategoryProductSlider:after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #eaf6fc;
+    top: 0;
+    left: inherit;
+    right: -100%;
+}
+/* End category view */
+/* Cart page and checkout page */
+.checkout-index-index header.page-header .header.content, .checkout-cart-index header.page-header .header.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin-bottom: 30px;
+}
+.checkout-cart-index a.logo {
+    max-width: 215px;
+}
+.checkout-cart-index .page-title-wrapper{
+    text-align: center;
+}
+.checkout-cart-index .page-title-wrapper .page-title {
+    font-weight: bold;
+}
+.checkout-cart-index .action.primary {
+    background-image: none;
+    background: #1979c3;
+    border: 1px solid #1979c3;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    padding: 7px 15px;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+.action.primary:hover, .amquote-addto-button:hover {
+    background: #ffde00;
+    color: #0d2c6d;
+}
+.checkout-cart-index .cart.table-wrapper .actions-toolbar {
+    text-align: right;
+}
+.checkout-cart-index .cart.table-wrapper .actions-toolbar > .action, .action-gift {
+    background-color: unset;
+    border: 0px;
+}
+.checkout-cart-index .cart.table-wrapper .actions-toolbar > .action, .action-gift:hover {
+    box-shadow: unset;
+}
+/* a.logo {
+    margin: 25px;
+} */
+a.logo img {
+    max-width: 85%;
+    height: auto;
+    padding-bottom: 5%;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    border: 0px;
+}
+.abs-margin-for-forms-desktop, .fieldset .legend, .column:not(.sidebar-main) form .actions-toolbar, .column:not(.sidebar-additional) form .actions-toolbar, .login-container .fieldset:after {
+    margin-left: 0px;
+}
+/* End cart page and checkout page */
+/* Contact Us page */
+#html-body [data-pb-style=UXAX9NF] {
+    margin-bottom: 0px!important;
+}
+.contact-us-header {
+    margin-top: 30px;
+}
+.contact-us-header .pagebuilder-column {
+    background: #f1f1f1;
+    padding: 25px;
+    margin: 0;
+    min-height: 190px;
+    margin: 0px 10px;
+    min-height: 190px;
+}
+.contact-us-header .phone-icon, .contact-us-header .envelope-icon, .contact-us-header .telegram-icon {
+    font-size: 4em;
+    color: #0d2c6d;
+}
+.contact-us-header .heading {
+    font-size: 30px;
+    font-weight: 600;
+    color: #0d2c6d;
+    display: block;
+    padding: 0;
+    margin: 0 0 15px;
+}
+.contact-us-header .subheading {
+    font-weight: 400;
+    color: #0d2c6d;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.send-jaybro-a-message-now, .contact-form-subheading {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    padding: 12px 50px 12px 10px;
+    background: #0d2c6d;
+    margin: 40px 0 0;
+}
+.send-jaybro-a-message-now::before, .contact-form-subheading:before {
+    position: absolute;
+    content: '';
+    background: #0d2c6d;
+    width: 200%;
+    height: 100%;
+    top: 0;
+    left: -200%;
+}
+
+.send-jaybro-a-message-now::after, .contact-form-subheading:after {
+    position: absolute;
+    content: '';
+    background: #0d2c6d;
+    width: 50px;
+    height: 100%;
+    top: 0;
+    right: -11px;
+    transform: skewX(-25deg);
+    -webkit-transform: skewX(-25deg);
+}
+.contact-us-form {
+    padding: 10px;
+}
+form.contact-us-form .form-group {
+    margin: 0 0 20px!important;
+}
+form.contact-us-form input {
+    height: 44px!important;
+    border: 1px solid #c7c8c8!important;
+    outline: none;
+    box-shadow: inherit!important;
+    background: #fff!important;
+    margin-bottom: 20px;
+}
+form.contact-us-form textarea#comment {
+    min-height: 172px;
+}
+form.contact-us-form button {
+    height: 50px;
+    min-width: 225px;
+    border: 0;
+    border-radius: 0;
+    background: #0d2c6d;
+    color: #fff;
+}
+.contact-branch-container {
+    background-color: #f1f1f1;
+}
+.contact-branch-container .pagebuilder-column-group {
+    border-top: 2px solid #999;
+    color: #0d2c6d;
+    padding: 20px 0;
+    float: left;
+    width: 100%;
+}
+.contact-branch-container .pagebuilder-column-group a {
+    color: #888;
+}
+/* End contact us page */
+/* About us page */
+.page-heading-container {
+    max-height: 200px;
+    min-height: 200px;
+}
+.page-heading-container .row-full-width-inner {
+    padding: 80px 0px;
+}
+.page-heading-container h1 {
+    font-family: TitilliumWeb !important;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.1;
+    letter-spacing: normal;
+    color: #ffd100;
+    margin: 0px;
+}
+.making-life-easier-container, .needSomething_section_row {
+    margin: 0 auto;
+    width: 88%;
+    margin-top: 60px;
+    margin-bottom: 86px;
+}
+.making-life-easier-container .pagebuilder-column {
+    padding-right: 50px;
+}
+.making-life-easier-container a {
+    width: 139px;
+    height: 48px;
+    padding: 14px 24.5px 15px 27.5px;
+    background-color: #00205b;
+    border: none;
+    border-radius: 0px;
+    font-family: Roboto !important;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffd100;
+}
+.making-life-easier-container a:hover {
+    background: #489fdf;
+    text-decoration: none;
+    color: #fff;
+}
+h2.aboutus-section2-heading {
+    font-family: TitilliumWeb !important;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #00205b;
+    margin-bottom: 28px;
+    margin-top: 0px;
+}
+.section2-subheading p {
+    font-family: Roboto !important;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #00205b;
+    margin-bottom: 28px;
+}
+.rc-container-desktop {
+    background-color: #ffd100;
+    padding-top: 55px;
+    padding-bottom: 48px;
+}
+.rc-heading {
+    font-family: TitilliumWeb !important;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 29px;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00205b;
+}
+.rc-container-desktop .number > p {
+    font-family: TitilliumWeb !important;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00205b;
+}
+.rc-container-desktop .description > p {
+    font-family: Roboto !important;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1d2226;
+}
+.rc-container-desktop .pagebuilder-column:not(:first-child) {
+    border-right: 1px solid #00205b;
+}
+.ceo-letter-row {
+    background-color:#f6f6f6;
+    padding:65px 0 28px 0;
+}
+h2.ceo-letter-heading {
+    font-family: TitilliumWeb !important;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #00205b;
+    margin-bottom: 28px;
+    margin-top: 0px;
+}
+.signature p {
+    font-size: 42px;
+    display: block;
+    height: auto;
+    line-height: 2;
+    font-family:'La Belle Aurore',cursive!important;
+    color: #0d2c6d;
+}
+.striveToBeOutstanding-container {
+    background: linear-gradient(180deg, #00205b 72%, #FFF 72%);
+}
+.striveToBeOutstanding-main-heading {
+    display: block;
+    font-family: TitilliumWeb !important;
+    font-size: 32px;
+    font-weight: normal;
+    margin-top: 59px;
+    margin-bottom: 58px;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffd100;
+}
+.single-item_container {
+    margin: 0 10px 0 0;
+    padding: 0 0 26px;
+    box-shadow: 0 3px 16px 0 rgb(72 159 223 / 20%);
+    background-color: #ffffff;
+}
+.single-item_container img {
+    object-fit: cover;
+    width: 100%;
+    height: 206px!important;
+}
+h3.striveToBeOutstanding-heading {
+    font-family: TitilliumWeb !important;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.3;
+    letter-spacing: normal;
+    color: #00205b;
+    padding-left: 20px;
+}
+.striveToBeOutstanding-desc, .whatsInItForYou-desc {
+    font-family: Roboto !important;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    color: #1d2226;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.single-item_container a.pagebuilder-button-primary {
+    background-color: unset!important;
+    font-family: Roboto !important;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #489fdf;
+    border: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 32px;
+}
+.jayBroFactSheet-container {
+    margin-top: 84px;
+}
+.jayBroFactSheet-container-inner {
+    width: 1000px;
+    margin: 0 auto;
+    height: 128px;
+    padding: 29px 59px 37px 47px;
+    background-color: #00205b;
+    margin-bottom: 24px;
+}
+.jayBroFactSheet-heading {
+    margin-bottom: 6px;
+    font-family: TitilliumWeb !important;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #ffd100;
+}
+.jayBroFactSheet-text {
+    font-family: Roboto !important;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+.jayBroFactSheet-container-inner a:hover {
+    background: #489fdf;
+    text-decoration: none;
+    color: #fff;
+}
+.jayBroFactSheet-container-inner a {
+    width: 170px;
+    height: 48px;
+    padding: 14px 47px 15px 50px;
+    box-shadow: 0 4px 24px 0 rgb(0 0 0 / 15%);
+    background-color: #ffd100;
+    border: none;
+    font-family: Roboto !important;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00205b;
+    margin-top: 10px;
+    border-radius: 0px;
+}
+/* End about us page */
+/* Our purpose page */
+.needSomethingContent_heading {
+    font-family: TitilliumWeb !important;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #00205b;
+    margin-bottom: 28px;
+}
+.needSomethingContent_subheading {
+    font-family: Roboto !important;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #00205b;
+    margin-bottom: 28px;
+}
+.howWeDoIt_section_row {
+    background-color: #ffd100;
+}
+h2.howWeDoIt_heading {
+    font-family: TitilliumWeb !important;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00205b;
+    margin-top: 56px;
+    margin-bottom: 28px;
+}
+.howWeDoIt_singleIconContainer {
+    text-align: center;
+}
+.icon-heading {
+    font-family: TitilliumWeb !important;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00205b;
+    margin-bottom: 13px;
+}
+.icon-desc {
+    padding: 0px 20px;
+}
+.coreCompanyValues_row {
+    width: 88%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.coreCompanyValues_row .coreCompanyValues_col {
+    padding: 25px;
+    box-shadow: 0 3px 16px 0 rgb(72 159 223 / 20%);
+    margin: 5px;
+}
+.coreCompanyValues_heading {
+    font-family: TitilliumWeb !important;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00205b;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+/* End our purpose page */
+/* Jom page */
+h2.capabilitiesBrands_section1_heading {
+    font-family: TitilliumWeb !important;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #00205b;
+    margin-top: 0px;
+    margin-bottom: 28px;
+}
+.capabilitiesBrands_section1_subheading {
+    font-family: Roboto !important;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #00205b;
+    margin-top: 0px;
+    margin-bottom: 28px;
+    padding-top: 40px;
+}
+.whatsInItForYou-container {
+    padding: 20px 0 0 0;
+}
+.modernSlavery_row {
+    background: #f6f6f6;
+    padding-top: 37px;
+    padding-bottom: 33px;
+    margin: 50px 0px;
+}
+h3.whatsInItForYou-heading {
+    font-family: TitilliumWeb !important;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.3;
+    letter-spacing: normal;
+    color: #00205b;
+    padding-left: 20px;
+}
+.modernSlavery_contentHeading {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #00205b;
+    margin-bottom: 12px;
+}
+h2.culture_section2_heading {
+    font-family: TitilliumWeb !important;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #00205b;
+    margin-top: 0px;
+    margin-bottom: 28px;
+}
+.culture_section2 p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    color: #1d2226;
+    margin-bottom: 28px;
+}
+/* Jom page */
+/* Our culture page */
+.whatsInItForYou-container {
+    padding-bottom: 84px;
+    background: linear-gradient(180deg, #fff 53%, #ffd100 53%);
+}
+h3.whatsInItForYou-main-heading {
+    display: block;
+    font-family: TitilliumWeb !important;
+    margin-top: 60px;
+    margin-bottom: 58px;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00205b;
+}
+.whatsInItForYou_desc p {
+    font-family: Roboto !important;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1d2226;
+    padding-bottom: 58px;
+    max-width: 789px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.single-item_container img {
+    width: 100%;
+    object-fit: cover;
+    height: 211px;
+}
+.culture_section1 {
+    max-width: 1200px;
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 8px;
+    padding: 80px 0px;
+}
+.culture_section2 {
+    max-width: 1200px;
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 8px;
+    padding-bottom: 80px;
+}
+.culture_section3 {
+    margin-top: 93px;
+    background-color: #f6f6f6;
+    padding-top: 80px;
+    padding-bottom: 76px;
+}
+.culture_section1 .culture-left-container, .culture_section3 .culture-left-container {
+    padding-right: 100px;
+}
+.culture_section2 .culture-left-container {
+    padding-left: 100px;
+}
+.culture_section1_subheading {
+    font-family: Roboto !important;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #00205b;
+    margin-top: 0px;
+    margin-bottom: 28px;
+}
+.culture_section2_subheading p {
+    font-family: Roboto !important;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #00205b;
+    margin-top: 0px;
+    margin-bottom: 28px;
+}
+.culture_section3_heading {
+    font-family: TitilliumWeb !important;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #00205b;
+    margin-top: 0px;
+    margin-bottom: 28px;
+}
+.culture_section3_subheading {
+    font-family: Roboto !important;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #00205b;
+    margin-top: 0px;
+    margin-bottom: 28px;
+}
+.culture_section1 p, .culture_section2 p, .culture_section3 p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    color: #1d2226;
+    margin-bottom: 28px;
+}
+.bottomBannerSection {
+    background: linear-gradient(180deg, #f6f6f6 55%, #fff 55%);
+    margin-top: -1px;
+    margin-bottom: 64px;
+}
+.bottomBannerSection .row-full-width-inner {
+    max-width: 1200px;
+    width: 88%;
+    margin: 0 auto;
+    background-image: url(https://www.jaybro.com.au/pub/media/aboutus/peopleBottomImg.jpg);
+    background-repeat: round;
+}
+.bottomBannerSection .pagebuilder-column-group {
+    background-color: rgb(0, 32, 91, 0.8);
+}
+h6.bottomBannerSection_heading {
+    font-family: TitilliumWeb !important;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffd100;
+    margin-top: 56px;
+    margin-bottom: 28px;
+}
+.bottomBannerSection_btn {
+    margin-top: 42px;
+    margin-bottom: 68px;
+}
+.view-jobs a {
+    background-color: #ffd100;
+    font-family: Roboto !important;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00205b;
+    padding: 15px 50px;
+    display: block;
+    max-width: 180px;
+    margin: 0 auto;
+    border: 0px;
+}
+.view-jobs a:hover {
+    background-color: #ffd100;
+    border: 0px;
+    color: #00205b;
+    text-decoration: none;
+}
+/* End our culture page */
+/* Our people page */
+.ourPeopleSection_1_desc_p p {
+    font-family: TitilliumWeb !important;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00205b;
+    margin-top: 60px!important;
+    margin-bottom: 28px!important;
+}
+div.rightPeopleSection_row {
+    background-color: #f6f6f6;
+    padding-bottom: 44px;
+    margin-top: 50px;
+}
+h2.rightPeopleSingle_heading {
+    font-family: TitilliumWeb !important;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00205b;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.rightPeopleSingle_container {
+    padding: 0px 6px;
+    margin-bottom: 50px;
+}
+h3.rightPeopleSection_name {
+    font-family: TitilliumWeb !important;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.3;
+    letter-spacing: normal;
+    color: #00205b;
+    padding-top: 7px;
+    padding-left: 16px;
+    padding-bottom: 2px;
+    margin: 0px!important;
+    background: #fff;
+}
+.rightPeopleSingle_container p {
+    font-family: Roboto !important;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    color: #1d2226;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    background: #fff;
+    margin-bottom: 0px;
+}
+.rightPeopleSingle_container:hover {
+    top: -13px;
+    padding-left: 0px;
+    margin-left: 6px;
+    width: calc(25% - 12px);
+    padding-right: 0px;
+    margin-right: 6px;
+    box-shadow: 0 12px 24px 0 rgb(0 0 0 / 10%), 0 3px 16px 0 rgb(72 159 223 / 20%);
+    cursor: pointer;
+    border: 2px solid #ffd100;
+}
+.rightPeopleSingle_container:hover h3.rightPeopleSection_name, .rightPeopleSingle_container:hover p  {
+    background: #ffd100;
+}
+h6.bottomBannerSection_heading {
+    font-family: TitilliumWeb !important;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffd100;
+    margin-top: 56px;
+    margin-bottom: 28px;
+}
+.bottomBannerSection p {
+    max-width: 636px;
+    margin: 0 auto;
+    font-family: Roboto !important;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+/* End our people page */
+/* Nps page */
+.capabilitiesBrands_section1 {
+    max-width: 1200px;
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 76px;
+}
+.capabilitiesBrands_section1 p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    color: #1d2226;
+    margin-bottom: 15px;
+}
+.customer-score {
+    width: 268px;
+    height: 80px;
+    margin: 0 0 6px;
+    padding: 11px 8px 21px 15px;
+    background-color: #d3e8f8;
+    display: flex;
+    align-items: center;
+}
+.score-digit {
+    font-family: TitilliumWeb !important;
+    font-size: 56px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 0.86;
+    letter-spacing: normal;
+    color: #00205b;
+}
+.score-text {
+    font-family: TitilliumWeb !important;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #00205b;
+    padding-left: 14px;
+}
+.jayBro_reviews_row {
+    background: #f6f6f6;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2.JayBro_Reviews_heading {
+    font-family: TitilliumWeb !important;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00205b;
+    margin-top: 60px;
+    margin-bottom: 52px;
+}
+.JayBro_Reviews_iframe {
+    margin-bottom: 67px;
+}
+.jayBro_reviews_row iframe {
+    height: 400px!important;
+}
+h2.howWeDoIt_heading {
+    font-family: TitilliumWeb !important;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00205b;
+    margin-top: 56px;
+    margin-bottom: 28px;
+}
+.howWeDoIt_desc p {
+    font-family: Roboto !important;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1d2226;
+}
+h1.nps_last_section_main_heading {
+    font-family: TitilliumWeb !important;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00205b;
+    max-width: 929px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 41px;
+}
+.howWeDoIt_row_inner {
+    margin: 0 auto;
+    padding-bottom: 56px;
+}
+p.icon span {
+    font-size: 60px;
+    text-align: center;
+    color: #00205b;
+    margin-bottom: 13px;
+}
+.nps_last_section_row {
+    background: #00205b;
+    padding: 70px;
+}
+.nps_last_section_right-col {
+    padding-left: 100px;
+}
+h2.nps_last_section_inner_heading {
+    font-family: TitilliumWeb !important;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #ffd100;
+    margin-top: 0px;
+    margin-bottom: 28px;
+}
+h4.nps_last_section_inner_subheading {
+    margin-top: 0px;
+    font-family: Roboto !important;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-bottom: 28px;
+}
+.nps_last_section_row p {
+    font-family: Roboto !important;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-bottom: 28px;
+}
+.columns .column.main {
+    padding-bottom: 0px;
+}
+/* End nps page */
+/* Capabilities and brands page */
+.cp-left-container {
+    padding-right: 100px;
+}
+h2.coreCompanyValues_heading {
+    font-family: TitilliumWeb !important;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00205b;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+}
+h5.coreCompany_single_subheading {
+    padding-left: 20.7px;
+    padding-right: 20.7px;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00205b;
+    font-family: TitilliumWeb !important;
+    font-style: italic;
+}
+.coreCompanyValues_row p {
+    font-family: Roboto !important;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    color: #1d2226;
+    padding-bottom: 40px;
+}
+.CompanyValues_row .coreCompanyValues_col {
+    box-shadow: 0 3px 16px 0 rgb(72 159 223 / 20%);
+    margin: 5px 5px 30px 5px;
+}
+.coreCompanyValues_col p {
+    font-family: Roboto !important;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    color: #1d2226;
+    padding-bottom: 40px;
+    padding-left: 20.7px;
+    padding-right: 15px;
+}
+/* End capabilities and brands page */
+/* Sustainability page */
+h2.weSourceEthically_heading {
+    font-family: TitilliumWeb !important;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00205b;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+h4.weSourceEthicallyContent_heading {
+    margin-top: 0px;
+    font-family: TitilliumWeb !important;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.3;
+    letter-spacing: normal;
+    color: #00205b;
+    margin-bottom: 15px;
+}
+.weSourceEthically_content_col {
+    padding-right: 30px;
+}
+.weSourceEthicallyContent_html p {
+    font-family: Roboto !important;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    color: #1d2226;
+}
+h4.culture_section2_subheading {
+    font-family: Roboto !important;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #00205b;
+    margin-top: 0px;
+    margin-bottom: 28px;
+}
+.culture_content_p p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    color: #1d2226;
+    margin-bottom: 28px;
+}
+.culture_section2, .culture_section3 {
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.culture-left-container {
+    padding-right: 100px;
+}
+/* End sustainability page */
+/* Our history page */
+.employees_words_block_col {
+    background-color: #0a2043;
+    height: 429px;
+}
+.employees_words_block_col .pagebuilder-column > img {
+    width: 100%!important;
+    height: auto!important;
+}
+.howWeDoIt_desc p {
+    font-family: Roboto !important;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1d2226;
+}
+.history-year span.year {
+    font-family: TitilliumWeb !important;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #ffd100;
+}
+.history-content-container {
+    padding-left: 58px;
+}
+ul.year-desc-ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 32px;
+    margin-top: 12px;
+}
+ul.year-desc-ul li {
+    font-family: Roboto !important;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.history-content {
+    display: flex;
+}
+/* End our history page */
+/* Careers page */
+h4.whatsInItForYou-our-people-heading {
+    margin-top: 43px;
+    margin-bottom: 28px;
+    font-family: TitilliumWeb !important;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00205b;
+}
+.whatsInItForYou-container .fa-check-circle {
+    color: #489fdf;
+}
+.whatsInItForYou-ourPeopleAre-content p {
+    font-family: TitilliumWeb !important;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.3;
+    letter-spacing: normal;
+    color: #00205b;
+}
+.employees_words {
+    background: #00205b;
+}
+h2.employees_words_heading {
+    font-family: TitilliumWeb !important;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffd100;
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+blockquote.employees_words_quote:before {
+    background: url(https://www.jaybro.com.au/pub/media/aboutus/quote-yellow.svg);
+    display: block;
+    content: " ";
+    position: relative;
+    width: 36px;
+    height: 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+    left: -50px;
+    top: 25px;
+}
+blockquote {
+    border: 0px;
+}
+blockquote.employees_words_quote {
+    font-family: TitilliumWeb !important;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.3;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+}
+.employees_words .pagebuilder-column img {
+    height: 380px!important;
+}
+.employees_words_block_col {
+    background-color: #0a2043;
+    height: 380px;
+}
+.employees_words_quote_container {
+    padding: 80px;
+}
+.employees_words_quote small {
+    display: none;
+}
+h3.section_4_heading {
+    font-family: TitilliumWeb !important;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffd100;
+    margin-top: 44px;
+    margin-bottom: 27.7px;
+}
+h3.section_4_col_heading {
+    font-family: TitilliumWeb !important;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.3;
+    letter-spacing: normal;
+    color: #00205b;
+    margin: 0px;
+    padding-top: 20.3px;
+    padding-bottom: 23px;
+    padding-left: 20px;
+    background: #ffd100;
+    position: relative;
+    top: -5px;
+}
+.section_4 {
+    background: linear-gradient(180deg , #00205b 55%, #F6F6F6 55%);
+    margin-top: -1px;
+    padding-bottom: 68px;
+}
+.bamboohr-container {
+    background-color: #f6f6f6;
+}
+.section_4 .pagebuilder-column {
+    padding: 20px;
+}
+h2.openPositions-heading {
+    font-family: TitilliumWeb !important;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00205b;
+    border-bottom: none !important;
+    margin-top: 60px!;
+    margin-bottom: 28px!;
+}
+.openPositions-content-container {
+    margin-bottom: 63px;
+    background: #fff;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.positions {
+    padding: 2px 20px 12px 0px;
+    border-bottom: 1px solid #d7d7d7;
+    margin-bottom: 10px;
+}
+.positions h3 {
+    font-family: Roboto !important;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #1d2226;
+}
+.positions a {
+    font-family: TitilliumWeb !important;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.3;
+    letter-spacing: normal;
+    color: #00205b;
+}
+.positions span {
+    font-family: Roboto !important;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: right;
+    color: #00205b;
+}
+h2.bottomBannerSection_heading {
+    font-family: TitilliumWeb !important;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffd100;
+    margin-top: 56px;
+    margin-bottom: 28px;
+}
+.bottomBannerSection_content p {
+    font-family: Roboto !important;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+.bottomBannerSection_content a {
+    color: #ffd100;
+}
+.bottomBannerSection_content {
+    margin-bottom: 80px;
+}
+ul.BambooHR-ATS-Jobs-List {
+    padding-left: 0px;
+}
+ul.BambooHR-ATS-Jobs-List li {
+    list-style-type: none;
+}
+/* End careers page */
+/* About us submenu */
+.about-us-container {
+    background-color: #ffd100;
+}
+.aboutus-navigation ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    max-width: 88%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding: 20px 0px;
+}
+.aboutus-navigation ul li {
+    padding-right: 22px;
+    margin-bottom: 0px;
+}
+ul.navigation-aboutus li a {
+    font-family: Roboto !important;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    color: #00205b;
+    margin: 0px;
+}
+.page-wrapper {
+    min-height: unset;
+}
+.about-us-container {
+    display: none;
+}
+.navigation ul li.about-jaybro {
+    cursor: pointer;
+}
+.about-us-container ul:before {
+    position: absolute;
+    content: '';
+    left: 145px;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 8px solid #102c6d;
+}
+/* End about us submenu */
+/* Our range submenu */
+.navigation ul li.our-range .submenu {
+    width: 400px;
+    height: 75%;
+    min-height: 592px;
+}
+.navigation ul li.our-range:hover .submenu {
+    display: block;
+}
+.navigation ul li.our-range:hover .submenu li.categories a {
+    padding: 20px 0px;
+    background-color: unset;
+    border-bottom: 2px solid #0e346d;
+}
+.navigation ul li.our-range .submenu li.categories a {
+    color: #1ba6df;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    font-weight: 600;
+}
+.navigation .level0 .submenu a {
+    color: #333;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    padding: 15px 15px;
+    font-family: 'Roboto',sans-serif!important;
+    line-height: 2.2rem;
+    font-weight: 30;
+}
+.navigation .level0 .submenu a:hover {
+    display: block;
+    line-height: inherit!important;
+    color: #0d2c6d!important;
+    padding: 15px 15px!important;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 700;
+    transition: background-color .5s ease;
+    -webkit-transition: background-color .5s ease;
+}
+.navigation .level0 .submenu {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+/* End our range submenu */
+/* Price beat page */
+.sidebar-main {
+    width: 315px;
+    background: #ebf4fa;
+    padding: 25px 0;
+    position: relative;
+}
+ul.jaybroAboutUsSideNavigation {
+    padding-left: 0px;
+}
+ul.jaybroAboutUsSideNavigation li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    list-style-type: none;
+}
+ul.jaybroAboutUsSideNavigation li a {
+    padding: 11px 15px;
+    display: block;
+    color: #0d2c6d;
+    font-weight: 500;
+    font-size: 16px;
+    border-bottom: 5px solid #fff;
+    text-decoration: none;
+}
+.bluefont {
+    color: #0d2c6d;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+.bluefont h2 {
+    font-weight: 600;
+}
+/* End price beat page */
+/* 30 day trade account page */
+a.button {
+    background-color: #ffff;
+    color: #1BA6DF!important;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #1BA6DF;
+}
+a.button:hover {
+    background-color: #0d2c6d!important;
+    border: 2px solid #1BA6DF;
+    color: #ffff;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+}
+.jaybro-catalogue-image-container {
+    padding-left: 0px;
+    padding-right: auto;
+}
+/* End 30 day trade account page */
+/* Jaybro Policies page */
+.greyfont {
+    color: #333333;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+/* End jaybro policies page */
+/* Temporary fencing sydney page */
+a.btn-yellow {
+    background-color: #FFDD00;
+    color: #0d2c6d;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border: 0px;
+}
+a.btn-yellow:hover {
+    background-color: #0d2c6d;
+    color: #fff;
+}
+.whitebackground {
+    background-color: rgb(255,255,255,0.80);
+}
+.whitefont {
+    color: #fff;
+}
+.NPbluefont {
+    color: #0d2c6d;
+    padding-top: 20px;
+}
+.border {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e3e3e3;
+    border-radius: 5px;
+}
+/* End temporary fencing sydney page */
+/* Book now page */
+.book-now-slider {
+    background-image:url(https://www.jaybro.com.au/pub/media/banners/Fit-Test-Banner.jpg);
+    background-repeat:no-repeat;
+    padding:150px 0 0 0
+}
+/* End book now page */
+/* Jaybro catalogue page */
+div.navicon, .cmsMobNacIcoClose {
+    display: none;
+}
+/* End jaybro catalogue */
+/* Media query for mobile */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .header-top {
+        position: absolute;
+        bottom: 0px;
+        background-color: #ffde00;
+        width: 93%;
+        margin: auto;
+        padding: 0px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .header-top a {
+        color: #0d2c6d;
+        text-align: center;
+    }
+    header.page-header {
+        height: 170px;
+        padding: 11px 15px 0px;
+    }
+    .logo {
+        left: 70px;
+    }
+    form.minisearch {
+        left: unset;
+        width: 92%;
+        top: 60px;
+    }
+    .block-search input {
+        font-size: 16px; 
+        left: unset;
+        margin: unset;
+        position: unset;
+        margin: 0px;
+    }
+    .block-search .control {
+        padding-left: 0px;
+    }
+    .block-search .label:before {
+        display: none;
+    }
+    span.btn-search {
+        left: unset;
+        top: 10px;
+        right: -15px;
+        width: 100px;
+    }
+    .nav-toggle:before {
+        color: #fff;
+    }
+    .authorization-link a, .showcart span:first-child {
+        display: none;
+    }
+    .minicart-wrapper .action.showcart:before {
+        right: 0px;
+    }
+    .home-slider-box, .home-slider, .websiteswitcher {
+       display: none;
+    }
+    .page-heading {
+        padding-left: 20px;
+    }
+    h2.why-choose-jaybro {
+        max-width: 90%;
+    }
+    h2.why-choose-jaybro:before {
+        position: absolute;
+        content: '';
+        background: #0d2c6d;
+        width: 201%;
+        height: 100%;
+        top: 0;
+        left: -200%;
+    }
+    .BtmTwoBxLetf {
+        margin-bottom: 15px;
+    }
+    .BtmTwoBxLetf, .BtmTwoBxRight {
+        padding: 0px 15px;
+    }
+    .homePromoButton {
+        margin-bottom: 20px!important;
+        text-align: center;
+    }
+    .footer-bottom {
+        padding: 0px;
+    }
+    .footer-logo, .copyright-container, .social-icons-container {
+        text-align: center;
+    }
+    h3.about-jaybro span, h3.customer-support span, h3.my-account span, h3.contact-info span {
+        display: block;
+    }
+    ul.about-jaybro , ul.customer-support, ul.my-account, ul.contact-info {
+        display: none;
+    }
+    .footer-links h3 {
+        border-top: 1px solid #999;
+        font-size: 1.3em;
+    }
+    .footer-links h3 {
+        border-top: 1px solid #999;
+        padding: 15px;
+        margin: 0px;
+    }
+    .footer, .footer .footer-container {
+        padding: 0px!important;
+    }
+    .footer-container ul {
+        margin: 0px 15px!important;
+    }
+    /* About page */
+    .rc-container-desktop {
+        display: none!important;
+    }
+    .ceo-letter-row, .striveToBeOutstanding-container {
+        padding: 25px;
+    }
+    .striveToBeOutstanding-container .single-item_container {
+        margin-bottom: 10px;
+    }
+    .making-life-easier-container .pagebuilder-column {
+        padding-right: unset;
+    }
+    .iframe-container iframe {
+        width: 100%!important;
+        height: 220px!important;
+    }
+    .jayBroFactSheet-container-inner {
+        height: 200px;
+        padding: 10px 10px;
+    }
+    .jayBroFactSheet-heading {
+        width: 45%;
+    }
+    /* End about page */
+    /* Our purpose page */
+    .whatsInItForYou-container {
+        background: unset;
+    }
+    .operating-model-container, .whatsInItForYou-container .single-item_container {
+        padding: 25px;
+    }
+    /* End our purpose page */
+    /* Our culture page */
+    .whatsInItForYou-main-heading, .whatsInItForYou_desc {
+        padding: 10px 25px;
+        margin: 10px 0px!important;
+    }
+    .whatsInItForYou-container {
+        padding: 25px;
+    }
+    .whatsInItForYou-container .single-item_container {
+        padding: unset;
+    }
+    .whatsInItForYou-container {
+        background: linear-gradient(
+    180deg, #fff 79.5%, #ffd100 79.5%);
+    }
+    .culture_section1 .culture-left-container, .culture_section3 .culture-left-container, .culture_section2 .culture-left-container {
+        padding-right: unset;
+        padding-left: unset;
+    }
+    .culture_section3, .bottomBannerSection {
+        padding: 0px 25px!important;
+    }
+    .culture_section3 iframe {
+        width: 100%!important;
+        height: 220px!important;
+    }
+    /* End our culture page */
+    /* Our people page */
+    .ourPeopleSection_1 {
+        padding: 25px;
+    }
+    .rightPeopleSingle_container {
+        padding: 0px 25px;
+    }
+    /* End our people page */
+    /* NPS page */
+    .jayBro_reviews_row, .jayBro_customer_feedback, .howWeDoIt_row_inner {
+        padding: 25px;
+    }
+    .jayBro_customer_feedback iframe, .jayBro_reviews_row iframe, .capabilitiesBrands_section1 iframe {
+        width: 100%!important;
+        height: 220px!important;
+    }
+    .nps_last_section_row {
+        padding: 25px;
+    }
+    .nps_last_section_right-col {
+        padding-left: unset;
+    }
+    /* End nps page */
+    /* Capabilities and brands page */
+    .capabilitiesBrands_section1, .coreCompanyValues_heading, .CompanyValues_row {
+        margin: 25px;
+    }
+    .capabilitiesBrands_section1_subheading {
+        padding: 10px 0px;
+        margin: 0px;
+    }
+    /* End capabilities and brands page */
+    /* Sustainability page */
+    .sustainabilityWhatsInItForYou-container, .weSourceEthically .pagebuilder-column-group, .jayBro_managing_waste {
+        padding: 25px;
+    }
+    .weSourceEthically_content_col {
+        padding-right: unset;
+    }
+    .modernSlavery_row {
+        padding: 10px;
+    }
+    .jayBro_managing_waste iframe {
+        width: 100%!important;
+        height: 220px!important;
+    }
+    /* End sustainability page */
+    /* Our history page */
+    .history-content-container, .our-history {
+        padding: 25px;
+    }
+    /* End our history page */
+    /* Careers page */
+    .whatsInItForYou-container .single-item_container {
+        margin-bottom: 15px;
+    }
+    .whatsInItForYou-ourPeopleAre-content {
+        padding: 0px 50px;
+    }
+    .section_4 {
+        margin-bottom: 0px;
+    }
+    .employees_words, .bottomBannerSection .pagebuilder-column-group {
+        padding: 25px;
+    }
+    .employees_words_block_col {
+        margin: 0px;
+    }
+    .openPositions-content-container {
+        margin: 25px;
+        padding: 10px;
+    }
+    h2.openPositions-heading {
+        margin: 0px;
+    }
+    /* End careers page */
+    /* Contact us page */
+    .contact-us-header .pagebuilder-column {
+        margin-top: 10px;
+    }
+    .send-jaybro-a-message-now {
+        width: 85%;
+        margin-bottom: 10px;
+    }
+    .contact-form-subheading {
+        width: 85%;
+    }
+    .contact-us-form button {
+        margin-top: 10px;
+    }
+    .contact-branch-container {
+        padding: 15px;
+    }
+    .jaybro-catalogue-image-container {
+        padding: 25px;
+    }
+    /* End contact us page */  
+    /* Jaybro catalogue page */
+    div.navicon {
+        display: block;
+        background-color: #f9f9f9;
+        background-size: 24px auto;
+        padding: 10px;
+        color: #08a8de;
+        cursor: pointer;
+        font-weight: 500;
+        border: 1px solid #eee;
+        margin-bottom: 11px;
+        margin: 0px 25px 25px 25px;
+    }
+    div.navicon span.fa-navicon, .cmsMobNacIcoClose .fa-close {
+        font-size: 2em;
+    }
+    .sidebar-main {
+        width: 100%;
+        width: 100%;
+        background: #1ba6df;
+        padding: 25px 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        overflow-y: auto;
+        z-index: 9999999991;
+        transition: all .5s ease;
+        -webkit-transition: all .5s ease;
+        left: -100%;
+    }
+    ul.jaybroAboutUsSideNavigation {
+        margin-top: 30px;
+    }
+    ul.jaybroAboutUsSideNavigation li a {
+        border-bottom: 1px solid #fff;
+        color: #fff;
+    }
+    .cmsMobNacIcoClose {
+        display: block;
+        background-color: #0d2c6d;
+        color: #fff;
+        padding: 15px;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+    }
+    .jayBro_policies .pagebuilder-column {
+        padding: 15px;
+        word-break: break-all;
+    }
+    .jayBro_shipping .pagebuilder-column {
+        margin-right: 60px!important;
+    }
+    /* End jaybro catalogue page */
+    /* Used concrete barriers for sale */
+    .jayBro_used_concrete_barriers_for_sale {
+        margin: 40px 20px 25px!important;
+    }
+    .whitefont {
+        padding: 10px;
+    }
+    /* End concrete barriers for sale page */
+    /* Book now page */
+    .jayBro_popular_respirators .pagebuilder-column {
+        text-align: center;
+    }
+    /* End book now page */
+    /* Navigation */
+    .nav-sections { 
+       left: auto;
+       display: none;
+       z-index: 999;
+       width: 60%;
+    }
+    .navigation .level0 .submenu a, .navigation .level0 > .level-top {
+        color: #0d2c6d;
+    }
+    .nav-sections-items, nav.navigation {
+        background-color: #fff;
+    }
+    .navigation .level0 {
+        border: unset;
+    }
+    .nav-sections-item-title:nth-child(1), .nav-sections-item-title:nth-child(3), .nav-sections-item-title:nth-child(5) {
+        display: none;
+    }
+    .nav-sections-item-content {
+        margin-top: 0px;
+    }
+    .navigation .level0 > .level-top {
+        font-weight: unset;
+        font-size: 1.4rem;
+        text-transform: unset;
+    }
+    .nav-sections .switcher:last-child {
+        display: none;
+    }
+    .categories {
+        padding: 0px;
+    }
+    .navigation ul li.our-range .submenu li.categories a {
+        font-size: 1.4rem;
+    }
+    .navigation ul li.our-range .submenu {
+        width: 100%;
+    }
+    /* End navigation */
+}
+/* End media query for mobile */
+
+/* Media query for tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .header-top {
+        position: absolute;
+        bottom: 0px;
+        background-color: #ffde00;
+        width: 93%;
+        margin: auto;
+        padding: 0px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .header-top a {
+        color: #0d2c6d;
+        text-align: center;
+    }
+    header.page-header {
+        height: 170px;
+        padding: 11px 15px 0px;
+    }
+    .logo {
+        left: 70px;
+    }
+    form.minisearch {
+        left: unset;
+        width: 92%;
+        top: 60px;
+    }
+    .block-search input {
+        font-size: 16px; 
+        left: unset;
+        margin: unset;
+        position: unset;
+        margin: 0px;
+    }
+    .block-search .control {
+        padding-left: 0px;
+    }
+    .block-search .label:before {
+        display: none;
+    }
+    span.btn-search {
+        left: unset;
+        top: 10px;
+        right: -15px;
+        width: 100px;
+    }
+    .nav-toggle:before {
+        color: #fff;
+    }
+    .authorization-link a, .showcart span:first-child {
+        display: none;
+    }
+    .minicart-wrapper .action.showcart:before {
+        right: 0px;
+    }
+    .page-heading {
+        padding-left: 20px;
+    }
+    .home-slider-box, .home-slider, .websiteswitcher {
+       display: none;
+    }
+    h2.why-choose-jaybro {
+        max-width: 90%;
+    }
+    h2.why-choose-jaybro:before {
+        position: absolute;
+        content: '';
+        background: #0d2c6d;
+        width: 201%;
+        height: 100%;
+        top: 0;
+        left: -200%;
+    }
+    .BtmTwoBxLetf {
+        margin-bottom: 15px;
+    }
+    .BtmTwoBxLetf, .BtmTwoBxRight {
+        padding: 0px 15px;
+    }
+    .homePromoButton {
+        margin-bottom: 20px!important;
+        text-align: center;
+    }
+    .footer-bottom {
+        padding: 0px;
+    }
+    .footer-logo, .copyright-container, .social-icons-container {
+        text-align: center;
+    }
+    h3.about-jaybro span, h3.customer-support span, h3.my-account span, h3.contact-info span {
+        display: block;
+    }
+    ul.about-jaybro , ul.customer-support, ul.my-account, ul.contact-info {
+        display: none;
+    }
+    .footer-links h3 {
+        border-top: 1px solid #999;
+        font-size: 1.3em;
+    }
+    .footer-links h3 {
+        border-top: 1px solid #999;
+        padding: 15px;
+        margin: 0px;
+    }
+    .footer, .footer .footer-container {
+        padding: 0px!important;
+    }
+    .footer-container ul {
+        margin: 0px 15px!important;
+    }
+    /* About page */
+    .rc-container-desktop {
+        display: none!important;
+    }
+    .ceo-letter-row, .striveToBeOutstanding-container {
+        padding: 25px;
+    }
+    .striveToBeOutstanding-container .single-item_container {
+        margin-bottom: 10px;
+    }
+    .jayBroFactSheet-container-inner {
+        height: 200px;
+        padding: 10px 10px;
+    }
+    .jayBroFactSheet-heading {
+        width: 45%;
+    }
+    /* End about page */
+}
+/* End media query for tablets */
+
+/* Media query for laptops */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
+/* End media query for laptops */
+
+/* Media query for desktops and large screens */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+
+}
+/* Media query for desktops and large screens */

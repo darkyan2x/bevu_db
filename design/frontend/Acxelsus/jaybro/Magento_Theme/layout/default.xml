@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <update handle="default_head_blocks"/>
+    <body>
+        <referenceBlock name="page.main.title">
+            <action method="setPageTitle">
+                <argument translate="true" name="title" xsi:type="string">Jaybro</argument>
+            </action>
+        </referenceBlock>
+        <move element="top.search" destination = "header-wrapper" after="logo" />
+        <move element="header.links" destination = "header-wrapper" before="minicart" />
+        <move element="authorization-link" destination = "header-wrapper" before="minicart" />
+        <referenceContainer name="header.container">
+            <block class="Magento\Framework\View\Element\Template" name="header_top" template="Magento_Theme::html/header_top.phtml" before="-" />
+            <block name="website.switcher" template="Magento_Theme::html/website_switcher.phtml" after="minicart"/>
+        </referenceContainer>
+        <referenceBlock name="catalog.topnav">
+            <block name="custom.menu.links" template="Magento_Theme::html/topmenu_custom.phtml"/>
+        </referenceBlock>
+        <referenceContainer name="page.top">
+            <block name="custom.about.submenu" template="Magento_Theme::html/about_submenu.phtml" after="nav-sections"/>        </referenceContainer>
+        <referenceContainer name="footer-container">
+            <block class="Magento\Framework\View\Element\Template" name="footer_newsletter" template="Magento_Theme::html/footer_newsletter.phtml" before="-" />
+            <container name="footer" as="footer" label="Page Footer" htmlTag="div" htmlClass="footer content">
+                <block class="Magento\Framework\View\Element\Template" name="footer_section" template="Magento_Theme::html/footer.phtml" />
+            </container>
+        </referenceContainer>
+        <referenceContainer name="before.body.end">
+            <block class="Magento\Theme\Block\Html\Footer" name="footer_bottom" template="Magento_Theme::html/footer_bottom.phtml" />
+            <block class="Magento\Customer\Block\Form\Login" name="login_modal" template="Magento_Theme::html/login_modal.phtml" before="-" />
+            <block class="Magento\Customer\Block\Form\Register" name="register_modal" template="Magento_Theme::html/register_modal.phtml" before="-" />
+            <block class="Magento\Customer\Block\Account\Forgotpassword" name="forgot_password_modal" template="Magento_Theme::html/forgot_password_modal.phtml" before="-" />
+        </referenceContainer>
+        <referenceBlock name="header.panel" remove="true"/>
+        <referenceBlock name="breadcrumbs" remove="true"/>
+    </body>
+</page>
